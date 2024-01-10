@@ -48,11 +48,11 @@
 
         raise_layer {
             bindings = <
-        &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans        &trans       &trans         &trans     &trans         &kp EQUAL
-&trans  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MINUS    &kp C_VOL_UP  &kp HOME     &kp PSCRN      &kp PG_UP  &kp SLCK       &kp CAPS         &trans
-        &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4     &kp KP_N5     &kp KP_N6     &kp KP_PLUS     &kp C_MUTE    &kp LEFT     &kp UP         &kp RIGHT  &kp INS        &mt RCTRL K_APP
-        &kp LEFT_SHIFT   &kp KP_N0        &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_DOT      &kp C_VOL_DN  &kp END      &kp DOWN       &kp PG_DN  &kp BACKSLASH  &kp BACKSPACE
-                                          &kp LC(X)     &kp LC(C)     &trans        &kp LC(V)       &kt HOME      &kt PAGE_UP  &kp PAGE_DOWN  &kt END
+        &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_DISC 4  &bt BT_DISC 3  &bt BT_DISC 2  &bt BT_DISC 1  &bt BT_DISC 0  &kp EQUAL
+&trans  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MINUS    &kp C_VOL_UP   &kp HOME       &kp PSCRN      &kp PG_UP      &kp SLCK       &kp CAPS         &trans
+        &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4     &kp KP_N5     &kp KP_N6     &kp KP_PLUS     &kp C_MUTE     &kp LEFT       &kp UP         &kp RIGHT      &kp INS        &mt RCTRL K_APP
+        &kp LEFT_SHIFT   &kp KP_N0        &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_DOT      &kp C_VOL_DN   &kp END        &kp DOWN       &kp PG_DN      &kp BACKSLASH  &kp BACKSPACE
+                                          &kp LC(X)     &kp LC(C)     &trans        &kp LC(V)       &kt HOME       &kt PAGE_UP    &kp PAGE_DOWN  &kt END
             >;
         };
 

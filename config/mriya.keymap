@@ -48,11 +48,11 @@
 
         raise_layer {
             bindings = <
-        &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2                   &bt BT_SEL 1  &bt BT_SEL 0   &kp EQUAL
-&trans  &kp KP_NUM       &trans        &kp LC(LA(LEFT))  &kp LC(UP)    &kp LA(LC(RIGHT))  &trans          &kp C_VOL_UP  &kp HOME      &kp UP                         &kp PG_UP     &kp SLCK       &kp CAPS         &bt BT_CLR
-        &mt LCTRL EQUAL  &trans        &kp LC(LEFT)      &kp LC(DOWN)  &kp LC(RIGHT)      &trans          &kp C_MUTE    &kp LEFT      &kp DOWN                       &kp RIGHT     &kp INS        &mt RCTRL K_APP
-        &kp LEFT_SHIFT   &trans        &trans            &trans        &trans             &trans          &kp C_VOL_DN  &kp END       &mt LC(LA(LG(S))) PRINTSCREEN  &kp PG_DN     &kp BACKSLASH  &kp BACKSPACE
-                                       &kp LC(X)         &kp LC(C)     &trans             &kp LC(V)       &kt HOME      &kt PAGE_UP   &kp PAGE_DOWN                  &kt END
+        &bt BT_CLR       &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4        &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2                   &bt BT_SEL 1  &bt BT_SEL 0   &kp EQUAL
+&trans  &kp KP_NUM       &kp LA(NUMBER_1)  &kp LC(LA(LEFT))  &kp LC(UP)    &kp LA(LC(RIGHT))  &kp LA(NUMBER_2)    &kp C_VOL_UP  &kp HOME      &kp UP                         &kp PG_UP     &kp SLCK       &kp CAPS         &bt BT_CLR
+        &mt LCTRL EQUAL  &kp LA(NUMBER_4)  &kp LC(LEFT)      &kp LC(DOWN)  &kp LC(RIGHT)      &kp LA(NUMBER_8)    &kp C_MUTE    &kp LEFT      &kp DOWN                       &kp RIGHT     &kp INS        &mt RCTRL K_APP
+        &kp LEFT_SHIFT   &trans            &trans            &trans        &trans             &trans              &kp C_VOL_DN  &kp END       &mt LC(LA(LG(S))) PRINTSCREEN  &kp PG_DN     &kp BACKSLASH  &kp BACKSPACE
+                                           &kp LC(X)         &kp LC(C)     &trans             &kp LC(V)           &kt HOME      &kt PAGE_UP   &kp PAGE_DOWN                  &kt END
             >;
         };
 
